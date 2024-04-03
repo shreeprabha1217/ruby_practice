@@ -1,13 +1,12 @@
-=begin
+#Even number
 num=gets.to_i
 if num%2==0
 	puts "num is Even."
 else
 	puts "num is odd."
 end
-=end
 
-=begin
+#Even number
 class Practice
 	def initialize(num)
 		@num=num
@@ -24,9 +23,9 @@ puts "Enter a number"
 num=gets.to_i
 practice_instance=Practice.new(num)
 practice_instance.even
-=end
 
-=begin
+
+#Armstrong number
 class Practice
 	def initialize(num)
 		@num=num
@@ -50,8 +49,8 @@ puts "Enter a number"
 num=gets.to_i
 practice_instance=Practice.new(num)
 practice_instance.armstrong
-=end
 
+#Even number
 num=gets.to_i
 unless num%2==0
 	puts "#{num} is odd"
