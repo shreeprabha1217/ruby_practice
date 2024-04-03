@@ -1,5 +1,5 @@
 
-=begin
+
 def sum(arr)
 	@sum1=0
 	@size=arr.size
@@ -10,9 +10,9 @@ def sum(arr)
 end
 arr=[2,423,5,4,323,24]
 sum(arr)
-=end
 
-=begin
+
+
 def duplicate(arr)
 	@size=arr.size
 	
@@ -31,10 +31,9 @@ def duplicate(arr)
 end
 arr=[2,4,3,2,4,1,5,4,2]
 duplicate(arr)
-=end
 
 
-=begin
+
 def factorial(num)
 	@product=1
 	while num>1
@@ -45,9 +44,9 @@ def factorial(num)
 end
 num=6
 puts factorial(num)
-=end
 
-=begin
+
+
 n = 5
 for i in 1..n
   for j in 1..i
@@ -55,7 +54,7 @@ for i in 1..n
   end
   puts ""      # Move to the next line after each row
 end
-=end
+
 
 n=5
 for i in 1..n
