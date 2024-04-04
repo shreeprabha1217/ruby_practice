@@ -1,5 +1,4 @@
 students=Array.new
-average=Array.new
 puts "Enter the total number of students"
 count=gets.chomp.to_i
 puts "For each student, enter their name followed by their scores for each exam separated by spaces:"
